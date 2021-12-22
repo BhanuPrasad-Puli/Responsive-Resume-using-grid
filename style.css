@@ -7,3 +7,98 @@
 }
 
 /* Write CSS code below */
+.main-content{
+    display: grid;
+    grid-template-columns:300px 700px;
+    padding: 10px;
+    min-height: 1000px;
+    margin: 20px auto;
+    justify-content: center;
+
+}
+.left-section{
+    background-color:#003147;
+
+}
+.right-section{
+    background-color:#fff;
+    width: 90%;
+}
+.left-content{
+    padding: 1rem;
+    color: white;
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-image img{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+
+}
+.skills{
+    font-size:0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name{
+font-size: 0.65rem;
+font-weight: 0.65rem;
+text-align: left;
+padding-bottom:0.5rem ;
+}
+.skill-name .progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color:indianred;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.edu-exp{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+@media screen and (max-width:674px) {
+    .main-content{
+      grid-template-columns: repeat(1,1fr);
+      width: 90%;
+      min-height: 1000px;
+    }
+    .profile-image img{
+        width: 30%;
+    }
+}
