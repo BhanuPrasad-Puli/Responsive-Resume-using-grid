@@ -46,14 +46,20 @@
 .name{
     font-size: 1.2rem;
     font-weight: 700;
-    text-align: center;
+    justify-content: center;
     text-transform: uppercase;
-    word-spacing: 0.02px;
+    letter-spacing: 0.02px;
     padding: 0.8rem;
 }
 .designation{
+    font-size: 1rem;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
     font-size: 0.75rem;
-    text-align: center;
+    justify-content: center;
     padding: 1rem;
 }
 .icon{
