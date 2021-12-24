@@ -18,11 +18,15 @@
 }
 .left-section{
     background-color:#003147;
+    display: grid;
+    grid-column: 1/span 300px;
 
 }
 .right-section{
     background-color:#fff;
     width: 90%;
+    display: grid;
+    grid-column: 2/span 700px;
 }
 .left-content{
     padding: 1rem;
