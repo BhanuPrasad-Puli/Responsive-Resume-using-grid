@@ -10,27 +10,21 @@
 .main-content{
     display: grid;
     grid-template-columns:300px 700px;
-    padding: 10px;
     min-height: 1000px;
     margin: 20px auto;
     justify-content: center;
+    width: 90%;
+    background-color:gray;
 
 }
 .left-section{
     background-color:#003147;
-    display: grid;
-    grid-column:1/span 300px;
-
-}
-.right-section{
-    background-color:#fff;
-    width: 90%;
-    display: grid;
-    grid-column: 300px/span 1000px;
+    color: white;
+    grid-column:span 1;
+    min-height: 1000px;
 }
 .left-content{
     padding: 1rem;
-    color: white;
 }
 .left-content{
     padding: 1rem;
@@ -80,9 +74,14 @@ font-weight: 0.65rem;
 text-align: left;
 padding-bottom:0.5rem ;
 }
-.skill-name .progress-bar{
+.progress-bar{
     border: 1px solid white;
     height: 4px;
+}
+.right-section{
+    background-color:#fff;
+    grid-column: span 1 /span 2;
+    min-height: 1000px;
 }
 .right-main-content{
     padding: 2rem 3rem;
@@ -102,7 +101,7 @@ padding-bottom:0.5rem ;
     padding:10px;
 }
 
-@media screen and (min-width:674px) {
+@media only screen and (max-width:673px) {
     .main-content{
       grid-template-columns: repeat(1,1fr);
       width: 90%;
